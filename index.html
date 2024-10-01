@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Kitchen Order Automation Solution - Bootstrap 5 HTML Template</title>
+
+        <!-- CSS FILES -->    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">                    
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/tooplate-crispy-kitchen.css" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        
+        <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+               <a class="navbar-brand" href="index.html" style="color: green;">
+    KOAS
+</a>
+
+
+                <div class="d-lg-none">
+                  <button type="button" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#BookingModal" style="background-color: gold; color: black;">
+    Reservation
+</button>
+
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Story</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">Cart</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-none d-lg-block">
+                                    <button type="button" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#BookingModal" style="background-color: black; color: white;">
+    Reservation
+</button>
+                </div>
+
+            </div>
+        </nav>
+
+        <main>
+
+            <section class="hero">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-5 col-12 m-auto">
+                            <div class="heroText">
+
+                                <h1 class="text-white mb-lg-5 mb-3">Mouth Watering Recipes</h1>
+
+                                <div class="c-reviews my-3 d-flex flex-wrap align-items-center">
+                                    <div class="d-flex flex-wrap align-items-center">
+                                        <h4 class="text-white mb-0 me-3">4.4/5</h4>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+                                    </div>
+
+                                    <p class="text-white w-100">From <strong>4,000+</strong> Customer Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7 col-12">
+                            <div id="carouselExampleCaptions" class="carousel carousel-fade hero-carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="carousel-image-wrap">
+                                            <img src="images/slide/slide1.webp" class="img-fluid carousel-image" alt="">
+                                        </div>
+                                        
+                                        <div class="carousel-caption">
+                                            <span class="text-white">
+                                                <i class="bi-geo-alt me-2"></i>
+                                                Utawala, Nairobi
+                                            </span>
+
+                                            <h4 class="hero-text">La France Restaurant</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="carousel-image-wrap">
+                                            <img src="images/slide/slide2.webp" class="img-fluid carousel-image" alt="">
+                                        </div>
+                                        
+                                        <div class="carousel-caption">
+                                            <div class="d-flex align-items-center">
+                                                <h4 class="hero-text">Pizza</h4>
+
+                                                <span class="price-tag ms-4"><small>$</small>26.50</span>
+                                            </div>
+
+                                            <div class="d-flex flex-wrap align-items-center">
+                                                <h5 class="reviews-text mb-0 me-3">3.8/5</h5>
+
+                                                <div class="reviews-stars">
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star reviews-icon"></i>
+                                                    <i class="bi-star reviews-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="carousel-image-wrap">
+                                            <img src="images/slide/slide4.webp" class="img-fluid carousel-image" alt="">
+                                        </div>
+                                        
+                                        <div class="carousel-caption">
+                                            <div class="d-flex align-items-center">
+                                                <h4 class="hero-text">Sushi</h4>
+
+                                                <span class="price-tag ms-4"><small>$</small>15.25</span>
+                                            </div>
+
+                                            <div class="d-flex flex-wrap align-items-center">
+                                                <h5 class="reviews-text mb-0 me-3">4.2/5</h5>
+
+                                                <div class="reviews-stars">
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star reviews-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="video-wrap">
+                    <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                        <source src="video/video2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                </div>
+
+                <div class="overlay"></div>
+            </section>
+
+            <section class="menu section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h2 class="text-center mb-lg-5 mb-4">Happy Hour</h2>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/cocktails/c1.webp" class="img-fluid menu-image" alt="">
+
+                                   <span class="menu-tag bg-success">Cocktails</span>
+
+                                </div>
+
+                                            <div class="menu-info d-flex flex-column">
+         
+            <div class="d-flex justify-content-between w-100">
+                <h4 class="mb-0">Orange Lit</h4>
+                <span class="price-tag bg-white shadow-lg"><small>$</small>9.00</span>
+            </div>
+                                             <div class="d-flex align-items-center mt-3">
+                        <input type="number" id="table-number-3" class="form-control me-2" style="width: 60px;" placeholder="No">
+                        <button class="btn btn-dark">Add</button>
+                    </div>
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">4.3/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">102 Reviews</p>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/cocktails/c5.webp" class="img-fluid menu-image" alt="">
+
+                                    <span class="menu-tag bg-success">Mocktails</span>
+                                </div>
+
+                                            <div class="menu-info d-flex flex-column">
+         
+            <div class="d-flex justify-content-between w-100">
+                <h4 class="mb-0">Lagoon</h4>
+                <span class="price-tag bg-white shadow-lg"><small>$</small>8.00</span>
+            </div>
+                                             <div class="d-flex align-items-center mt-3">
+                        <input type="number" id="table-number-3" class="form-control me-2" style="width: 60px;" placeholder="No">
+                        <button class="btn btn-dark">Add</button>
+                    </div>
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">50 Reviews</p>
+                                    </div>
+                                </div>
+                                  </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/cocktails/c3.webp" class="img-fluid menu-image" alt="">
+
+                                    <span class="menu-tag bg-success">Cocktails</span>
+                                </div>
+
+                                
+                                                <div class="menu-info d-flex flex-column">
+         
+            <div class="d-flex justify-content-between w-100">
+                <h4 class="mb-0">Red sky</h4>
+                <span class="price-tag bg-white shadow-lg"><small>$</small>11.20</span>
+            </div>
+                                             <div class="d-flex align-items-center mt-3">
+                        <input type="number" id="table-number-3" class="form-control me-2" style="width: 60px;" placeholder="No">
+                        <button class="btn btn-dark">Add</button>
+                    </div>
+
+                                    <del class="ms-4"><small>$</small>150</del>
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">90 Reviews</p>
+                                    </div>
+                                </div>
+                             
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/cocktails/c10.webp" class="img-fluid menu-image" alt="">
+
+                                    <span class="menu-tag bg-success">Mocktails</span>
+                                </div>
+
+                                          <div class="menu-info d-flex flex-column">
+         
+            <div class="d-flex justify-content-between w-100">
+                <h4 class="mb-0">Sweet Mamba</h4>
+                <span class="price-tag bg-white shadow-lg"><small>$</small>20.20</span>
+            </div>
+                                             <div class="d-flex align-items-center mt-3">
+                        <input type="number" id="table-number-3" class="form-control me-2" style="width: 60px;" placeholder="No">
+                        <button class="btn btn-dark">Add</button>
+                    </div>
+
+                                   
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">55 Reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/cocktails/c8.webp" class="img-fluid menu-image" alt="">
+
+                                    <span class="menu-tag bg-success">Cocktails</span>
+                                </div>
+
+                                <div class="menu-info d-flex flex-wrap align-items-center">
+                                    <h4 class="mb-0">Valley Ripe</h4> <br>
+
+                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>10.50</span>
+                                             <div class="d-flex align-items-center mt-3">
+                        <input type="number" id="table-number-3" class="form-control me-2" style="width: 60px;" placeholder="No">
+                        <button class="btn btn-dark">Add</button>
+                    </div>
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">4.3/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">102 Reviews</p>
+                                    </div>
+                                </div>
+                             
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/cocktails/c4.webp" class="img-fluid menu-image" alt="">
+
+                                    <span class="menu-tag bg-success">Mocktails</span>
+                                </div>
+
+                                <div class="menu-info d-flex flex-column">
+         
+            <div class="d-flex justify-content-between w-100">
+                <h4 class="mb-0">Pink Ice</h4>
+                <span class="price-tag bg-white shadow-lg"><small>$</small>7.20</span>
+            </div>
+                                             <div class="d-flex align-items-center mt-3">
+                        <input type="number" id="table-number-3" class="form-control me-2" style="width: 60px;" placeholder="No">
+                        <button class="btn btn-dark">Add</button>
+                    </div>
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">2/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">6 Reviews</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="BgImage"></section>
+
+            <section class="news section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <h2 class="text-center mb-lg-5 mb-4">News&amp; Offers</h2>
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="news-thumb mb-4">
+                                <a href="#">
+                                    <img src="images/news/news2.webp" class="img-fluid news-image" alt="">
+                                </a>
+                                
+                                <div class="news-text-info news-text-info-large">
+                                    <span class="category-tag bg-danger">Featured</span>
+
+                                    <h5 class="news-title mt-2">
+                                        <a href="#" class="news-title-link">4th Anniversery of our Restaurant Free Food</a>
+                                    </h5>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="news-thumb mb-4">
+                                <a href="#">
+                                    <img src="images/news/news1.webp" class="img-fluid news-image" alt="">
+                                </a>
+                                
+                                <div class="news-text-info news-text-info-large">
+                                    <span class="category-tag bg-danger">Featured</span>
+
+                                    <h5 class="news-title mt-2">
+                                        <a href="#" class="news-title-link">What's new on the menu</a>
+                                    </h5>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="news-thumb mb-lg-0 mb-lg-4 mb-0">
+                                <a href="#">
+                                    <img src="images/cocktails/c5.webp" class="img-fluid news-image" alt="">
+                                </a>
+                                
+                                <div class="news-text-info">
+                                    <span class="category-tag me-3 bg-dark">Offers</span>
+
+                                    <strong>11 May 2024</strong>
+
+                                    <h5 class="news-title mt-2">
+                                        <a href="#" class="news-title-link">Buy 1 cocktail and get 1 free (6.00pm - 11.00pm)</a>
+                                    </h5>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="news-thumb mb-lg-0 mb-lg-4 mb-2">
+                                <a href="#">
+                                    <img src="images/slide/slide4.webp" class="img-fluid news-image" alt="">
+                                </a>
+                                
+                                <div class="news-text-info">
+                                    <span class="category-tag">News</span>
+
+                                    <h5 class="news-title mt-2">
+                                        <a href="#" class="news-title-link">Sushi - new on the menu</a>
+                                    </h5>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="news-thumb mb-4">
+                                <a href="#">
+                                    <img src="images/slide/slide1.webp" class="img-fluid news-image" alt="">
+                                </a>
+                                
+                                <div class="news-text-info">
+                                    <span class="category-tag me-3 bg-dark">Offers</span>
+
+                                    <strong>17 June 2024</strong>
+
+                                    <h5 class="news-title mt-2">
+                                        <a href="#" class="news-title-link">Get two Cheese Burgers @12.00</a>
+                                    </h5>
+                                </div>
+                            </div> 
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer section-padding">
+            
+            <div class="container">
+                
+                <div class="row">
+
+                    <div class="col-12">
+                        <h4 class="text-white mb-4 me-5">KOAS</h4>
+                    </div>
+
+                    <div class="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Location</h6>
+
+                        <p>00100 Nairobi, Kenya</p>
+
+                        <a href="https://maps.app.goo.gl/n2AFGHXQ1gv1zLdcA" class="custom-btn btn btn-dark mt-2">Directions</a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Opening Hours</h6>
+
+                        <p class="mb-2">Monday - Sunday</p>
+
+                        <p>8:00 AM - 11:00 PM</p>
+
+                        <p>Tel: <a href="tel: 0741721636" class="tel-link">0741721636</a></p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Social</h6>
+
+                        <ul class="social-icon">
+                            <li><a href="#" class="social-icon-link bi-facebook"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                            <li><a href="https://twitter.com/search?q=tooplate.com&src=typed_query&f=live" target="_blank"
+                                 class="social-icon-link bi-twitter"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+                        </ul>
+                    
+                        <p class="copyright-text tooplate-mt60">Copyright © 2024 Kitchen Order Automation solution, Ltd.
+                        <br>Design: <a rel="nofollow" href="https://spencelabs.netlify.app" target="_blank">SpenceLabs</a></p>
+                        
+                    </div>
+
+                </div><!-- row ending -->
+                
+             </div><!-- container ending -->
+             
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="BookingModal" tabindex="-1" aria-labelledby="BookingModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="mb-0">Reserve a table</h3>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body d-flex flex-column justify-content-center">
+                        <div class="booking">
+                            
+                            <form class="booking-form row" role="form" action="#" method="post">
+                                <div class="col-lg-6 col-12">
+                                    <label for="name" class="form-label">Full Name</label>
+
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="email" class="form-label">Email Address</label>
+
+                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="your@email.com" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="phone" class="form-label">Phone Number</label>
+
+                                    <input type="telephone" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="123-456-7890">
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="people" class="form-label">Number of persons</label>
+
+                                    <input type="text" name="people" id="people" class="form-control" placeholder="12 persons">
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="date" class="form-label">Date</label>
+
+                                    <input type="date" name="date" id="date" value="" class="form-control">
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="time" class="form-label">Time</label>
+
+                                    <select class="form-select form-control" name="time" id="time">
+                                      <option value="5" selected>5:00 PM</option>
+                                      <option value="6">6:00 PM</option>
+                                      <option value="7">7:00 PM</option>
+                                      <option value="8">8:00 PM</option>
+                                      <option value="9">9:00 PM</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Special Request</label>
+
+                                    <textarea class="form-control" rows="4" id="message" name="message" placeholder=""></textarea>
+                                </div>
+
+                                <div class="col-lg-4 col-12 ms-auto">
+                                    <button type="submit" class="form-control">Submit Request</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer"></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>

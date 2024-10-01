@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Cart Page</title>
+
+        <!-- CSS FILES -->  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">                      
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/tooplate-crispy-kitchen.css" rel="stylesheet">
+
+        <style>
+            /* Custom styles for the cart page */
+            .cart-container {
+                margin: 40px auto;
+                max-width: 900px;
+                padding: 20px;
+                border: 1px solid #ddd;
+                background-color: #f9f9f9;
+            }
+            .cart-heading {
+                background-color: lightgreen;
+                color: black;
+                padding: 10px;
+                text-align: left;
+                border-bottom: 1px solid #ccc;
+            }
+            .cart-form {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            .cart-form th, .cart-form td {
+                border: 1px solid #ddd;
+                padding: 12px;
+                text-align: left;
+            }
+            .cart-form th {
+                background-color: #e2e2e2;
+                color: black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                            <a class="navbar-brand" href="index.html" style="color: green;">
+    KOAS
+</a>
+                <div class="d-lg-none">
+                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Story</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Cart</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-none d-lg-block">
+                                    <button type="button" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#BookingModal" style="background-color: black; color: white;">
+    Reservation
+</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content: Cart Section -->
+        <main>
+            <div class="cart-container">
+                <h2 class="cart-heading">Cart Items</h2>
+
+                <table class="cart-form">
+                    <thead>
+                        <tr>
+                            <th>Food</th>
+                            <th>Price</th>
+                            <th>Table Number</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pizza</td>
+                            <td>$12.99</td>
+                            <td>5</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Burger</td>
+                            <td>$8.99</td>
+                            <td>5</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Pasta</td>
+                            <td>$10.50</td>
+                            <td>5</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="text-center mt-4">
+                                    <button type="submit" class="btn btn-primary"style="background-color: black; color: white;">Proceed to Checkout</button>
+                                </div>
+            </div>
+        </main>
+
+        <footer class="site-footer section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="text-white mb-4">Kitchen Order Automation Solution</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Location</h6>
+                        <p>00100 Nairobi, Kenya</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JS FILES -->  
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
